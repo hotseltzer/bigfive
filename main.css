@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width:960px;
+    margin:auto;
+}
+
+body {
+     background-image: url(images/background.jpg); /*The text below creates a static background*/
+     background-repeat: no-repeat; 
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: top center;
+}
+
+h1 {
+    color: #65534e;
+}
+
+.banner{
+    text-align:center;
+    font-size: 60px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.menubar ul{
+    display: table;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(101, 88, 88, 0.5); /* the 0.5 adds transparency to the background*/
+}
+
+.menubar ul li{
+    display: table-cell;
+    text-align:center;
+    width:16.6%;
+    border-bottom: rgba(101, 88, 88, 1) solid 4px;
+}
+
+.menubar a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Quintessential', cursive;
+}
+
+.menubar a:hover{
+    background-color: rgba(101, 88, 88, 1);
+}
+
+.content {
+    float: right;
+    width: 300px;
+    padding: 15px; /*all sides have padding*/
+    margin: 60px 0px;
+    background-color: rgba(231, 207, 187, 0.69);
+}
+
+p {
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    font-size: 20px;
+    color: #4c413d;
+    font-weight: bold;
+}
+
+.content p a {
+    text-decoration: none;
+    color: white;
+}
+
+.content p a:hover {
+    color: #65534e; /*color scheme is consistent throughout the website*/
+}
+
+
+
